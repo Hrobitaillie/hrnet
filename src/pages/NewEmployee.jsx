@@ -20,7 +20,7 @@ export default function NewEmployee() {
       <div className=" mx-[100px] shadow-header rounded-md min-h-[200px] p-8">
         <Form onClick={TogglePopup} />
         <MyPopup
-          text="New employee added"
+          text="New employee added."
           type="success"
           title="Success"
           trigger={isPopupOpen}
